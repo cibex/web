@@ -163,7 +163,8 @@ Contributors
 -  Artem Kostyuk <a.kostyuk@mobilunity.com>
 -  Guewen Baconnier <guewen.baconnier@camptocamp.com>
 -  Phuc Tran Thanh <phuc@trobz.com>
--  Sylvain LE GAL <https://twitter.com/legalsylvain>
+-  Sylvain LE GAL
+   <`https://twitter.com/legalsylvain <https://twitter.com/legalsylvain>`__>
 -  Jurgis Pralgauskis <jurgis@versada.eu>
 
 Other credits

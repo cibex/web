@@ -6,7 +6,7 @@
 {
     "name": "2D matrix for x2many fields",
     "version": "17.0.1.0.0",
-    "maintainers": ["ChrisOForgeFlow"],
+    "maintainers": ["JasminSForgeFlow"],
     "development_status": "Production/Stable",
     "author": (
         "Therp BV, "

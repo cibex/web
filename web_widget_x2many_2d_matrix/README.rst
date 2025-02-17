@@ -220,6 +220,7 @@ Contributors
 -  Adrià Gil Sorribes <adria.gil@forgeflow.com>
 -  Christopher Ormaza <chris.ormaza@forgeflow.com>
 -  SodexisTeam <dev@sodexis.com>
+-  Jasmin Solanki <jasmin.solanki@forgeflow.com>
 
 Maintainers
 -----------
@@ -234,13 +235,13 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-.. |maintainer-ChrisOForgeFlow| image:: https://github.com/ChrisOForgeFlow.png?size=40px
-    :target: https://github.com/ChrisOForgeFlow
-    :alt: ChrisOForgeFlow
+.. |maintainer-JasminSForgeFlow| image:: https://github.com/JasminSForgeFlow.png?size=40px
+    :target: https://github.com/JasminSForgeFlow
+    :alt: JasminSForgeFlow
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-ChrisOForgeFlow| 
+|maintainer-JasminSForgeFlow| 
 
 This module is part of the `OCA/web <https://github.com/OCA/web/tree/17.0/web_widget_x2many_2d_matrix>`_ project on GitHub.
 

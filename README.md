@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [web_advanced_search](web_advanced_search/) | 16.0.1.0.6 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Easier and more powerful searching tools
 [web_apply_field_style](web_apply_field_style/) | 16.0.1.0.1 |  | Apply css class style to fields from a dict parameters
 [web_calendar_slot_duration](web_calendar_slot_duration/) | 16.0.1.1.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Customizable calendar slot durations
-[web_chatter_position](web_chatter_position/) | 16.0.1.0.2 |  | Add an option to change the chatter position
+[web_chatter_position](web_chatter_position/) | 16.0.1.0.3 |  | Add an option to change the chatter position
 [web_company_color](web_company_color/) | 16.0.1.2.3 |  | Web Company Color
 [web_copy_confirm](web_copy_confirm/) | 16.0.1.0.0 |  | Show confirmation dialogue before copying records
 [web_dark_mode](web_dark_mode/) | 16.0.1.0.2 |  | Enabled Dark Mode for the Odoo Backend
@@ -34,14 +34,14 @@ addon | version | maintainers | summary
 [web_dialog_size](web_dialog_size/) | 16.0.1.0.2 |  | A module that lets the user expand a dialog box to the full screen width.
 [web_disable_export_group](web_disable_export_group/) | 16.0.1.0.0 |  | Web Disable Export Group
 [web_domain_field](web_domain_field/) | 16.0.1.0.1 |  | Use computed field as domain
-[web_editor_class_selector](web_editor_class_selector/) | 16.0.1.0.1 |  | Web editor class selector
+[web_editor_class_selector](web_editor_class_selector/) | 16.0.1.1.0 |  | Web editor class selector
 [web_environment_ribbon](web_environment_ribbon/) | 16.0.1.0.0 |  | Web Environment Ribbon
 [web_field_numeric_formatting](web_field_numeric_formatting/) | 16.0.1.0.0 |  | Allow to render float and integer fields without thousands separator
 [web_field_tooltip](web_field_tooltip/) | 16.0.1.1.0 |  | Displays customizable tooltips for fields
 [web_group_expand](web_group_expand/) | 16.0.1.0.0 |  | Group Expand Buttons
 [web_help](web_help/) | 16.0.2.0.0 |  | Help Framework
 [web_hide_field_with_key](web_hide_field_with_key/) | 16.0.1.0.1 | [![franzpoize](https://github.com/franzpoize.png?size=30px)](https://github.com/franzpoize) | Hide fields for models
-[web_ir_actions_act_multi](web_ir_actions_act_multi/) | 16.0.1.0.0 |  | Enables triggering of more than one action on ActionManager
+[web_ir_actions_act_multi](web_ir_actions_act_multi/) | 16.0.1.0.1 |  | Enables triggering of more than one action on ActionManager
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 16.0.1.0.1 |  | Show a message box to users
 [web_ir_actions_act_window_page](web_ir_actions_act_window_page/) | 16.0.1.0.0 |  | Allows a developer to trigger a pager to show the previous or next next record in the form view
 [web_ir_actions_close_wizard_refresh_view](web_ir_actions_close_wizard_refresh_view/) | 16.0.1.0.0 |  | Allow to refresh view data without reload the page.
@@ -54,7 +54,7 @@ addon | version | maintainers | summary
 [web_notify_upgrade](web_notify_upgrade/) | 16.0.1.0.0 |  | Notify active users when a module is installed or updated
 [web_pivot_computed_measure](web_pivot_computed_measure/) | 16.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Web Pivot Computed Measure
 [web_pwa_oca](web_pwa_oca/) | 16.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Make Odoo a PWA
-[web_refresher](web_refresher/) | 16.0.3.1.3 |  | Web Refresher
+[web_refresher](web_refresher/) | 16.0.3.1.4 |  | Web Refresher
 [web_remember_tree_column_width](web_remember_tree_column_width/) | 16.0.1.0.2 | [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![cuongnmtm](https://github.com/cuongnmtm.png?size=30px)](https://github.com/cuongnmtm) | Remember the tree columns' widths across sessions.
 [web_responsive](web_responsive/) | 16.0.1.3.4 | [![Tardo](https://github.com/Tardo.png?size=30px)](https://github.com/Tardo) [![SplashS](https://github.com/SplashS.png?size=30px)](https://github.com/SplashS) | Responsive web client, community-supported
 [web_save_discard_button](web_save_discard_button/) | 16.0.1.0.2 | [![synconics](https://github.com/synconics.png?size=30px)](https://github.com/synconics) | Save & Discard Buttons
@@ -67,6 +67,7 @@ addon | version | maintainers | summary
 [web_timeline](web_timeline/) | 16.0.1.1.7 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Interactive visualization chart to show events in time
 [web_touchscreen](web_touchscreen/) | 16.0.1.0.1 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | UX improvements for touch screens
 [web_tree_duplicate](web_tree_duplicate/) | 16.0.1.0.1 | [![tarteo](https://github.com/tarteo.png?size=30px)](https://github.com/tarteo) | Duplicate records directly from the tree view.
+[web_tree_dynamic_colored_field](web_tree_dynamic_colored_field/) | 16.0.1.0.0 |  | Allows you to dynamically color fields on tree views
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 16.0.1.0.0 |  | Open the linked resource when clicking on their name
 [web_widget_bokeh_chart](web_widget_bokeh_chart/) | 16.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | This widget allows to display charts using Bokeh library.
 [web_widget_char_size](web_widget_char_size/) | 16.0.1.0.0 |  | Add size option to Char widget
@@ -82,7 +83,7 @@ addon | version | maintainers | summary
 [web_widget_pattern](web_widget_pattern/) | 16.0.1.0.0 | [![hbrunn](https://github.com/hbrunn.png?size=30px)](https://github.com/hbrunn) | Allows to define a regex for validating input on the backend
 [web_widget_pattern_partner_autocomplete](web_widget_pattern_partner_autocomplete/) | 16.0.1.0.0 | [![hbrunn](https://github.com/hbrunn.png?size=30px)](https://github.com/hbrunn) | Allows to define a regex for validating input on the backend
 [web_widget_plotly_chart](web_widget_plotly_chart/) | 16.0.1.0.0 | [![robyf70](https://github.com/robyf70.png?size=30px)](https://github.com/robyf70) | Allow to draw plotly charts.
-[web_widget_product_label_section_and_note](web_widget_product_label_section_and_note/) | 16.0.1.0.1 |  | unify the product and name into a single column
+[web_widget_product_label_section_and_note](web_widget_product_label_section_and_note/) | 16.0.1.0.3 |  | unify the product and name into a single column
 [web_widget_progressbar_gradient](web_widget_progressbar_gradient/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module allows to display progressbar with gradient
 [web_widget_remaining_days_exact_date](web_widget_remaining_days_exact_date/) | 16.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Allows displaying the exact date alongside the remaining days
 [web_widget_x2many_2d_matrix](web_widget_x2many_2d_matrix/) | 16.0.1.1.3 | [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Show list fields as a matrix

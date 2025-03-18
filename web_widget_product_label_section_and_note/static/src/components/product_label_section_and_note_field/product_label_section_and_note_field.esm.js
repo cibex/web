@@ -135,6 +135,7 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
         this.labelVisibility = useState({value: false});
         this.isProductVisible = useState({value: false});
         this.switchToLabel = false;
+        this.changeProductVisibility = true;
         this.columnIsProductAndLabel = useState({
             value: this.props.record.columnIsProductAndLabel,
         });
@@ -184,8 +185,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
             window.removeEventListener("afterprint", this.onAfterPrint);
         });
         onWillUpdateProps((newProps) => {
-            const label = newProps.record.data.name || "";
-            this.isProductVisible.value = label.includes(this.productName);
+            if (this.changeProductVisibility) {
+                const label = newProps.record.data.name || "";
+                this.isProductVisible.value = label.includes(this.productName);
+            }
         });
     }
 
@@ -257,12 +260,18 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
     }
 
     updateLabel(value) {
-        this.props.record.update({
-            name:
-                this.productName && this.productName !== value
-                    ? `${this.productName}\n${value}`
-                    : value,
-        });
+        this.changeProductVisibility = false;
+        const new_name =
+            this.productName &&
+            this.productName !== value &&
+            this.isProductVisible.value
+                ? `${this.productName}\n${value}`
+                : value;
+        // We need to update the record data directly because the record.update method
+        // updates the data asynchronously, and the new value will not be available
+        // in the `get Label` method immediately.
+        this.props.record.data.name = new_name;
+        this.props.record.update({name: new_name});
     }
 }
 

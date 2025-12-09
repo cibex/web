@@ -56,6 +56,7 @@ addon | version | maintainers | summary
 [web_notify](web_notify/) | 16.0.3.2.0 |  | Send notification messages to user
 [web_notify_channel_message](web_notify_channel_message/) | 16.0.1.0.1 |  | Send an instant notification to channel users when a new message is posted
 [web_notify_upgrade](web_notify_upgrade/) | 16.0.1.0.0 |  | Notify active users when a module is installed or updated
+[web_phone_field_whatsapp](web_phone_field_whatsapp/) | 16.0.1.0.0 | <a href='https://github.com/adasatorres'><img src='https://github.com/adasatorres.png' width='32' height='32' style='border-radius:50%;' alt='adasatorres'/></a> | This module adds a shortcut functionality to WhatsApp Web or the WhatsApp application in the phone widget.
 [web_pivot_computed_measure](web_pivot_computed_measure/) | 16.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> | Web Pivot Computed Measure
 [web_pwa_oca](web_pwa_oca/) | 16.0.1.0.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Make Odoo a PWA
 [web_quick_start_screen](web_quick_start_screen/) | 16.0.1.0.0 |  | Configurable start screen for quick actions
@@ -65,7 +66,7 @@ addon | version | maintainers | summary
 [web_save_discard_button](web_save_discard_button/) | 16.0.1.0.2 | <a href='https://github.com/synconics'><img src='https://github.com/synconics.png' width='32' height='32' style='border-radius:50%;' alt='synconics'/></a> | Save & Discard Buttons
 [web_search_with_and](web_search_with_and/) | 16.0.1.0.0 |  | Use AND conditions on omnibar search
 [web_searchbar_full_width](web_searchbar_full_width/) | 16.0.1.0.0 |  | Show search bar in full screen width
-[web_select_all_companies](web_select_all_companies/) | 16.0.1.0.1 |  | Allows you to select all companies in one click.
+[web_select_all_companies](web_select_all_companies/) | 16.0.1.0.2 |  | Allows you to select all companies in one click.
 [web_send_message_popup](web_send_message_popup/) | 16.0.1.0.0 |  | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 16.0.1.0.0 |  | Use the whole available screen width when displaying sheets
 [web_systray_button_init_action](web_systray_button_init_action/) | 16.0.1.0.1 |  | Add a button to go to the user init action.
@@ -93,7 +94,7 @@ addon | version | maintainers | summary
 [web_widget_product_label_section_and_note](web_widget_product_label_section_and_note/) | 16.0.1.0.4 |  | unify the product and name into a single column
 [web_widget_progressbar_gradient](web_widget_progressbar_gradient/) | 16.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | This module allows to display progressbar with gradient
 [web_widget_remaining_days_exact_date](web_widget_remaining_days_exact_date/) | 16.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> | Allows displaying the exact date alongside the remaining days
-[web_widget_x2many_2d_matrix](web_widget_x2many_2d_matrix/) | 16.0.1.1.3 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Show list fields as a matrix
+[web_widget_x2many_2d_matrix](web_widget_x2many_2d_matrix/) | 16.0.1.1.4 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Show list fields as a matrix
 
 [//]: # (end addons)
 
